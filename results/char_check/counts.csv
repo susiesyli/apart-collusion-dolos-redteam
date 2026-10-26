@@ -1,0 +1,17 @@
+model,prompt_id,n_tokens,ended_with_eos,nbsp,curly_double,curly_single,straight_double,other_unicode_space,comma_paragraph_break,chars
+dolos,0,104,True,0,0,0,0,0,0,478
+dolos,1,182,True,0,0,0,0,0,2,922
+dolos,2,109,True,0,0,0,0,0,0,512
+dolos,3,117,True,0,0,0,0,0,0,594
+dolos,4,200,False,0,0,0,1,0,0,907
+dolos,5,200,False,0,0,0,0,0,0,1071
+dolos,6,29,True,0,0,0,4,0,0,122
+dolos,7,200,False,0,0,0,0,0,0,970
+qwen,0,74,True,0,0,0,0,0,0,335
+qwen,1,168,True,0,0,0,0,0,2,860
+qwen,2,112,True,0,0,0,0,0,0,538
+qwen,3,157,True,0,0,0,0,0,0,773
+qwen,4,200,False,0,0,0,16,0,0,829
+qwen,5,200,False,0,0,0,0,0,0,1064
+qwen,6,36,True,0,0,0,6,0,0,152
+qwen,7,200,False,0,0,0,0,0,0,1007

@@ -1,0 +1,21 @@
+# Write-up (LaTeX report) and reference material, kept out of the public repository
+writeup/
+example-reports/
+
+# Local environment, editor and OS files
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+.vscode/
+.claude/
+.DS_Store
+
+# Downloaded data (scripts/e2_corpus.py and scripts/download.py fetch it again)
+data/
+
+# Run logs (console output with local paths)
+*.log
+
+# Large regenerable artifacts: activation caches and the trained SAE (rerun the scripts named in each docstring)
+results/**/*.npz
+results/e10/sae.pt

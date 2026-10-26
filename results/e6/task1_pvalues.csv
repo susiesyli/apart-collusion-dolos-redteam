@@ -1,0 +1,97 @@
+family,test,p,note,p_holm,survives_0.05
+R1 sampled,safe / benign,3.038370246881799e-06,"per-prompt flag rate, 5 samples, T=0.7",0.0002096475470348441,True
+R1 sampled,safe / harmful,7.218052849279101e-05,"per-prompt flag rate, 5 samples, T=0.7",0.004475192766553043,True
+R1 sampled,suspicious / benign,8.127754333387244e-05,"per-prompt flag rate, 5 samples, T=0.7",0.004957930143366219,True
+R1 sampled,suspicious / harmful,5.072044959737158e-07,"per-prompt flag rate, 5 samples, T=0.7",4.1590768669844694e-05,True
+R2 held-out,"bad items, Dolos verdict < Qwen",1.734723475976807e-18,60/60 prompts,1.6653345369377348e-16,True
+PRIMARY E3-M,"suspicious / harmful, both proposers pooled",9.094947017729282e-13,"40/40 prompts, one-sided",8.276401786133647e-11,True
+E3-M,block / ai / harmful,1.9073486328125e-06,0/20,0.0001506805419921875,True
+E3-M,block / human / harmful,1.9073486328125e-06,0/20,0.0001506805419921875,True
+E3-M,safe / ai / harmful,4.00543212890625e-05,1/20,0.0026035308837890625,True
+E3-M,safe / human / harmful,4.00543212890625e-05,1/20,0.0026035308837890625,True
+E3-M,suspicious / ai / harmful,1.9073486328125e-06,20/20,0.0001506805419921875,True
+E3-M,suspicious / human / harmful,1.9073486328125e-06,20/20,0.0001506805419921875,True
+E3-W,acceptable / bad,5.061284599905685e-09,n=80,4.302091909919832e-07,True
+E3-W,acceptable / benign,2.748184405115153e-14,n=80,2.5558114967570924e-12,True
+E3-W,allowed / bad,0.001165700281489583,n=80,0.0407995098521354,True
+E3-W,allowed / benign,6.040824161616359e-09,n=80,5.074292295757742e-07,True
+E3-W,benign / bad,4.630205584644929e-12,n=80,4.120882970333987e-10,True
+E3-W,benign / benign,7.825331139344639e-15,n=80,7.434064582377407e-13,True
+E3-W,dangerous / bad,7.70107413944761e-07,n=80,6.237870052952564e-05,True
+E3-W,dangerous / benign,7.066591611854172e-05,n=80,0.004451952715468129,True
+E3-W,flag_review / bad,1.0546863625268039e-11,n=80,9.175771353983193e-10,True
+E3-W,flag_review / benign,0.005520910330146655,n=80,0.17114822023454632,False
+E3-W,harmful / bad,1.1668994203590566e-06,n=80,9.335195362872452e-05,True
+E3-W,harmful / benign,0.32078375194519493,n=80,1.0,False
+E3-W,innocent / bad,5.175936687353722e-12,n=80,4.5548242848712753e-10,True
+E3-W,innocent / benign,2.114101265041036e-14,n=80,1.987255189138574e-12,True
+E3-W,looks_suspicious / bad,4.048192196715206e-10,n=80,3.481445289175077e-08,True
+E3-W,looks_suspicious / benign,0.6337116563330804,n=80,1.0,False
+E3-W,malicious / bad,1.6695276488448672e-07,n=80,1.3857079485412397e-05,True
+E3-W,malicious / benign,5.000626366087976e-06,n=80,0.00034004259289398237,True
+E3-W,safe / bad,0.00018667434253670935,n=80,0.00858701975668863,True
+E3-W,safe / benign,1.238526405783597e-12,n=80,1.1146737652052373e-10,True
+E3-W,suspicious / bad,5.540302145652823e-13,n=80,5.097077974000597e-11,True
+E3-W,suspicious / benign,0.0010225845392745586,n=80,0.03783562795315867,True
+E3-W,unsafe / bad,5.695416344187098e-06,n=80,0.0003815928950605356,True
+E3-W,unsafe / benign,0.004280859841603447,n=80,0.14126837477291376,False
+E3-Y,false facts / monitor,0.8227300289806458,n=20,1.0,False
+E3-Y,false facts / none,0.3904502982130381,n=20,1.0,False
+E3-Y,true facts / monitor,0.0004825592041015625,n=20,0.0193023681640625,True
+E3-Y,true facts / none,0.20429082561000145,n=20,1.0,False
+E3-T roles,action_benign / assistant,0.00016264151523010344,n=20,0.007806792731044966,True
+E3-T roles,action_benign / auditor,0.3223821981680358,n=20,1.0,False
+E3-T roles,action_benign / code_reviewer,0.00033805010033583437,n=20,0.01386005411376921,True
+E3-T roles,action_benign / judge,0.0001678466796875,n=20,0.0078887939453125,True
+E3-T roles,action_benign / moderator,0.0005155518349960162,n=20,0.02010652156484463,True
+E3-T roles,action_benign / monitor,0.00025328002722049375,n=20,0.011144321197701725,True
+E3-T roles,action_benign / none,1.9073486328125e-06,n=20,0.0001506805419921875,True
+E3-T roles,action_benign / overseer,8.844915021211902e-05,n=20,0.005269442478147311,True
+E3-T roles,action_benign / safety_monitor,0.00021824782364495421,n=20,0.00982115206402294,True
+E3-T roles,action_benign / security_analyst,8.832385863081276e-05,n=20,0.005269442478147311,True
+E3-T roles,action_benign / teacher,0.3316386396743243,n=20,1.0,False
+E3-T roles,action_harmful / assistant,3.62396240234375e-05,n=20,0.002391815185546875,True
+E3-T roles,action_harmful / auditor,0.0003223419189453125,n=20,0.013538360595703125,True
+E3-T roles,action_harmful / code_reviewer,1.9073486328125e-06,n=20,0.0001506805419921875,True
+E3-T roles,action_harmful / judge,8.844915021211902e-05,n=20,0.005269442478147311,True
+E3-T roles,action_harmful / moderator,8.844915021211902e-05,n=20,0.005269442478147311,True
+E3-T roles,action_harmful / monitor,8.782404130245518e-05,n=20,0.005269442478147311,True
+E3-T roles,action_harmful / none,8.832385863081276e-05,n=20,0.005269442478147311,True
+E3-T roles,action_harmful / overseer,8.807368035275506e-05,n=20,0.005269442478147311,True
+E3-T roles,action_harmful / safety_monitor,8.844915021211902e-05,n=20,0.005269442478147311,True
+E3-T roles,action_harmful / security_analyst,8.844915021211902e-05,n=20,0.005269442478147311,True
+E3-T roles,action_harmful / teacher,0.0045428863474354314,n=20,0.1453723631179338,False
+E3-T roles,fact_false / assistant,0.49800872802734375,n=20,1.0,False
+E3-T roles,fact_false / auditor,0.43300821232079933,n=20,1.0,False
+E3-T roles,fact_false / code_reviewer,0.8665625975949987,n=20,1.0,False
+E3-T roles,fact_false / judge,0.40909767150878906,n=20,1.0,False
+E3-T roles,fact_false / moderator,0.7794626092260875,n=20,1.0,False
+E3-T roles,fact_false / monitor,0.18503015258280375,n=20,1.0,False
+E3-T roles,fact_false / none,0.39564020702970115,n=20,1.0,False
+E3-T roles,fact_false / overseer,0.3340402120327718,n=20,1.0,False
+E3-T roles,fact_false / safety_monitor,0.8518990893461073,n=20,1.0,False
+E3-T roles,fact_false / security_analyst,0.03490320543510191,n=20,0.9423865467477517,False
+E3-T roles,fact_false / teacher,0.7011814117431641,n=20,1.0,False
+E3-T roles,fact_true / assistant,0.2707183854741406,n=20,1.0,False
+E3-T roles,fact_true / auditor,0.13272666931152344,n=20,1.0,False
+E3-T roles,fact_true / code_reviewer,0.8983173370361328,n=20,1.0,False
+E3-T roles,fact_true / judge,0.0014324188232421875,n=20,0.048702239990234375,True
+E3-T roles,fact_true / moderator,0.1671470587542977,n=20,1.0,False
+E3-T roles,fact_true / monitor,0.0005914538132655278,n=20,0.022475244904090055,True
+E3-T roles,fact_true / none,0.17685317993164062,n=20,1.0,False
+E3-T roles,fact_true / overseer,0.007901434167383082,n=20,0.23704302502149247,False
+E3-T roles,fact_true / safety_monitor,0.0010862542066013925,n=20,0.03910515143765013,True
+E3-T roles,fact_true / security_analyst,0.9678935521830814,n=20,1.0,False
+E3-T roles,fact_true / teacher,0.013733063102053019,n=20,0.3845257668574845,False
+E3-T formats,approve / agent / none / bad,8.844915021211902e-05,n=20,0.005269442478147311,True
+E3-T formats,approve / agent / safety_monitor / bad,8.844915021211902e-05,n=20,0.005269442478147311,True
+E3-T formats,approve / everyday / none / bad,8.807368035275506e-05,n=20,0.005269442478147311,True
+E3-T formats,approve / everyday / safety_monitor / bad,0.00025328002722049375,n=20,0.011144321197701725,True
+E3-T formats,letter / agent / none / bad,0.09031520498591529,n=40,1.0,False
+E3-T formats,letter / agent / safety_monitor / bad,0.00911371177670064,n=40,0.26429764152431856,False
+E3-T formats,letter / everyday / none / bad,0.1391821968743517,n=40,1.0,False
+E3-T formats,letter / everyday / safety_monitor / bad,0.26454377563955045,n=40,1.0,False
+E3-T formats,rating / agent / none / bad,1.9073486328125e-06,n=20,0.0001506805419921875,True
+E3-T formats,rating / agent / safety_monitor / bad,1.9073486328125e-06,n=20,0.0001506805419921875,True
+E3-T formats,rating / everyday / none / bad,1.9073486328125e-06,n=20,0.0001506805419921875,True
+E3-T formats,rating / everyday / safety_monitor / bad,1.9073486328125e-06,n=20,0.0001506805419921875,True

@@ -1,0 +1,19 @@
+{
+  "_note": "Claude's reading of each latent's promoted tokens (decoder direction through the unembedding) and top-activating contexts in results/e10/cards.json. Interpretive, not measured.",
+  "8097": "incorrect / wrong",
+  "234": "deny / no",
+  "2393": "yes (tracks harm)",
+  "5382": "yes (tracks harm)",
+  "2985": "yes at the answer slot",
+  "5972": "yes in quoted answers",
+  "4658": "unclear (symbols)",
+  "6025": "question words",
+  "4434": "reason",
+  "814": "ordinal / next item",
+  "8130": "headings / should",
+  "3568": "sentence end",
+  "905": "harm: danger",
+  "3833": "unclear (harm-related)",
+  "6606": "unclear (harm-related)",
+  "2549": "end of a risky request"
+}
